@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../services/AuthContext';
-import api from '../services/api';
+import { api } from '../services/api';
 import { Link } from 'react-router-dom';
 import Seo from '../components/Seo';
 

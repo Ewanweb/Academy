@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import api from '../services/api';
+import { api } from '../services/api';
 import CourseCard from '../components/CourseCard';
 import HeroSlider from '../components/HeroSlider';
 import StoryBar from '../components/StoryBar';
