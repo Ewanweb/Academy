@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import CourseCard from '../components/CourseCard';
-import api from '../services/api';
+import { api } from '../services/api';
 import Seo from '../components/Seo';
 
 const Courses = () => {
